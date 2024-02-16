@@ -1,28 +1,28 @@
-#wall .tag-1 {
+.tag-1 {
     display: none !important;
 }
   
-  #wall #tag-2 {
+#wall #tag-2 {
     display: none !important;
 }
   
-  #wall #tag-3.slick.wicked {
+div#wall #tag-3.slick {
     display: none !important;
   }
   
-  #wall .parent #tag-4 {
+  #wall #tag-4 {
     display: none !important;
 }
   
-  #wall .parent #tag-5.slick {
+div#wall .parent #tag-5.slick {
     display: none !important;
 }
   
-  #wall #tag-6 {
+div#wall div.parent div:last-child div#tag-6 {
     display: none !important;
 }
   
-  #wall #tag-7.slick {
+body div#wall div.parent div > #tag-7.slick {
     display: none !important;
 }
   
